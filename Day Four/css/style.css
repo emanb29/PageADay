@@ -1,0 +1,127 @@
+body, html{
+  background-image: url(../images/BG.jpg);
+  background-repeat: repeat;
+  width: 100%;
+}
+nav, header, footer, #search {
+  font-family: 'Lobster', serif;
+}
+/** Navigation **/
+#bar{
+  background: #64e1ff;
+  height: 24px;
+  width: 100%;
+}
+#mainnav ul {
+  display: block;
+  padding: 15px 0 10px 15px;
+  height: 72px;
+  background: rgba(0,0,0,0.1);
+}
+#mainnav hr {
+  margin-top: 0;
+  background: #000;
+  height: 1px;
+  border: 0;
+}
+#mainnav ul li {
+  float: left;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+}
+#mainnav ul li a {
+  text-decoration: none;
+  font-size: 18pt;
+  color: #8d8d8d;
+}
+#mainnav ul li:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+#mainnav ul li.active{
+  background-color: rgba(0,0,0,0.3);
+}
+#mainnav ul li.active a{
+  color: #4c4c4c;
+}
+#search{
+  float: right;
+  margin-top: 15px;
+  margin-right: 1%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  font-size: 12pt;
+  height: 25px;
+  width: 24%;
+  padding-left: 30px;
+}
+#search:focus{
+  outline: none;
+}
+#searchicon{
+  float: right;
+  margin-top: 15px;
+  margin-right: -30px;
+  padding: 5px;
+}
+#searchicon:hover{
+  cursor: pointer;
+}
+/*****Header*****/
+header #logo{
+  padding: 10px 40px;
+}
+
+/****Content****/
+#main{
+  padding: 0 2%;
+}
+#content{
+  float: left;
+  width: 67.5%;
+  background: rgba(256,256,256,1);
+  margin-right: 2.5%;
+}
+#sidebar{
+  width: auto;
+  margin: 0 0 10px 72.5%;
+  background: rgba(256,256,256,.75);
+}
+.col{
+  padding: 15px;
+}
+
+/****Footer****/
+footer{
+  position: relative;
+  background: rgba(0,0,0,0.1);
+}
+footer hr{
+  margin-top: 0;
+  background: #000;
+  height: 1px;
+  border: 0;
+}
+#bottombar{
+  background: #64e1ff;
+  height: 24px;
+  width: 100%;
+}
+#footertext{
+  margin-left: 40px;
+  margin-bottom: 24px;
+  font-size: 22pt;
+}
+#credits{
+  color: #fff;
+  float: right;
+}
+
+.themeblue{
+  color: #64e1ff;
+}
+.white{
+  color: white;
+}
