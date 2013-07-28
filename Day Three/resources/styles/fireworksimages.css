@@ -1,0 +1,66 @@
+/* Default (fluid) (for newer machines and desktops)*/
+
+/* (height)x(width) */
+@media screen and (min-width: 768px){
+  #initials{ /* 250x900 */
+    height: 167px;
+    width: 600px;
+  }
+  #imagetext{ /* 250x900 */
+    height: 167px;
+    width: 600px;
+  }
+  #shadow{ /* 180x240 */
+    height: 180px;
+    width: 240px;
+  }
+  #textonpath{ /* 250x250 */
+    height: 250px;
+    width: 250px;
+  }
+}
+/* Smaller (fixed) (for older machines/netbooks) */
+@media screen and (max-width: 768px) and (min-width: 600) {
+  #initials{ /* 250x900 */
+    height: 125px;
+    width: 450px;
+  }
+  #imagetext{ /* 250x900 */
+    height: 125px;
+    width: 450px;
+  }
+  #shadow{ /* 180x240 */
+    height: 180px;
+    width: 240px;
+  }
+  #textonpath{ /* 250x250 */
+    height: 250px;
+    width: 250px;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 600px) {
+  #initials{ /* 250x900 */
+    height: 97px;
+    width: 350px;
+  }
+  #imagetext{ /* 250x900 */
+    height: 97px;
+    width: 350px;
+  }
+  #shadow{ /* 180x240 */
+    height: 180px;
+    width: 240px;
+  }
+  #textonpath{ /* 250x250 */
+    height: 250px;
+    width: 250px;    
+  }
+}
+/*All*/
+.fireworks{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,256 @@
+/* 
+To Do List
+-----------
+Ensure style follows style guidelines
+
+*/
+
+@font-face {
+  font-family: 'Nova Square';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nova Square'), local('NovaSquare'), url(../fonts/NovaSquare.woff) format('woff');
+}
+/* Default (fluid) (for newer machines and desktops)*/
+@media screen and (min-width: 768px){
+  #header a{  
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18pt;
+  }
+  #header h1{
+    font-size: 14pt;
+  }
+  #content p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12pt;
+  }
+  #content .main{
+    text-indent: 50px;
+  }
+  #content .main:first-letter{
+    font-size: 17pt;
+  }
+  #container{
+    margin: 5px;
+    height: 100%;
+  }
+  #navbar{
+    width: 20%;
+    height: 70%;
+    float: left;
+  }
+  #navbar select{
+    display: none;
+  }
+  #navbar ul{
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+  }
+  #navbar li {
+    border-left: solid 10px #99816B;
+    border-right: solid 10px #99816B;
+    background: #9CB2B4;
+  }
+  #navbar a{
+    text-decoration: none;
+    color: #60462E;
+    text-align: center;
+    display: block;
+    padding: 5px;
+  }
+  #navbar li:hover{
+    background: #CEDAD9;
+  }
+  #navbar li:hover a{
+    font-weight: bold;
+    font-size: 105%;
+  }
+  #content{
+    width: 80%;
+    color: #574434;
+    float: left;
+    background-color: #C6D8DA;
+  }
+  #footer{
+    background-color: #2D4D50;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    float: bottom;
+  }
+  #toppic{
+    float: right;
+    margin:5px;
+  }
+}
+/* Smaller (fixed) (for older machines/netbooks) */
+@media screen and (max-width: 768px) and (min-width: 600) {
+  #header a{  
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18pt;
+  }
+  #header h1{
+    font-size: 14pt;
+  }
+  #navbar{
+    border: solid #99816B;
+    border-width: 10px 0;
+    list-style: none;
+    text-align: center;
+    background: #9CB2B4;
+  }
+  #navbar #select{
+    display: none;
+  }
+  #navbar ul{
+    padding: 0;
+    margin: 0 10px;
+  }
+  #navbar li{
+    display: inline;
+    margin: 30px auto;
+    background-color: #C6D8DA;
+  }
+  #navbar a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px auto;
+    padding: 0 15px;
+    border: 2px solid #99816B;
+    color: #60462E;
+  }
+  #navbar li:hover a{
+    background-color:#CFDAD9;
+    font-weight: bold;
+  }
+  #content{
+    background-color: #C6D8DA;
+    display: inline-block;
+    color: #574434;
+    width: 100%;
+  }
+  #content p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12pt;
+  }
+  #content .main{
+    text-indent: 50px;
+  }   
+  #content .main:first-letter{
+    font-size: 17pt;
+  }
+  #footer{
+    background-color: #2D4D50;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    float: bottom;
+  }
+  #toppic{
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 600px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  #container{
+    padding: 10px;
+    height: 100%;
+  }
+  #header a{  
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18pt;
+  }
+  #header h1{
+    font-size: 14pt;
+  }
+  #navbar #select{
+   display: block;
+   width: 100%;
+   }
+   #navbar select{
+    display: block;
+    width: 100%;
+    -webkit-appearance: none;
+    height:36px;
+    border-radius: 0;
+    border: 3px solid #99816B;
+    background: #9CB2B4;
+    color: #60462E;
+  }
+  #navbar select:active{
+    background: #CEDAD9;
+  }
+  #navbar ul{
+    display: none;
+  }
+  #content{
+    background-color: #C6D8DA;
+    color: #574434;
+    padding-bottom: 15px;
+  }
+  #content{
+    background-color: #C6D8DA;
+    display: inline-block;
+    color: #574434;
+    width: 100%;
+  }
+  #content p{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size:12pt;
+    padding-bottom:15px;
+  }
+  #content .main{
+    text-indent: 50px;
+  }   
+  #content .main:first-letter{
+    font-size: 17pt;
+  }
+  #footer{
+    background-color: #2D4D50;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    float: bottom;
+  }
+  #toppic{
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+}
+/*All*/
+.link a{
+  color: #574434;
+}
+.link a:hover{
+  font-weight: bold;
+}
+html{
+  background-color: #DDDED7;
+}
+body{
+  font-family: 'Nova Square', cursive;
+}
+#header{
+  background-color: #2D4D50;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  float: top;
+  color: #FFFFFF;
+} 
