@@ -1,0 +1,24 @@
+div#p1, div#p2, div#main{
+  display: none;
+}
+div#nav{
+  text-align: center;
+}
+div#nav ul{
+  list-style-type: none;
+}
+div#nav ul li {
+  display: inline-block;
+}
+div#nav ul li a{
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #bbb;
+  color: white;
+  border: 3px solid green;
+  display: block;
+  width: 80px;
+}
+div#nav ul li a:hover{
+  font-weight: bold;
+}

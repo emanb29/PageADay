@@ -1,0 +1,16 @@
+.label{
+  display: inline;
+}
+#wrapper{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#rate{
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+#rate a{
+  outline: none;
+}
